@@ -1,0 +1,19 @@
+# 忽略打包产物与缓存
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+*.exe
+
+# 本地临时
+_*.py
+_probe.py
+_probe_*.py
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
